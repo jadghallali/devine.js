@@ -9,9 +9,9 @@ function devine() {
             document.getElementById("resultat").innerHTML = "Success";
             document.getElementById("btn").disabled = true
         } else if (nbAleatoire > nbUser) {
-            document.getElementById("resultat").innerHTML = "Le nombre est plus grand";
+            document.getElementById("resultat").innerHTML = "Le nombre aleatoire est plus grand";
         } else {
-            document.getElementById("resultat").innerHTML = "Le nombre est plus petit";
+            document.getElementById("resultat").innerHTML = "Le nombre aleatoire est plus petit";
         }
     } else {
         document.getElementById("resultat").innerHTML = "game over"
